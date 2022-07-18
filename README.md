@@ -52,10 +52,10 @@ We are using C++ for some minor features (like value conversion or clipboard acc
 
 Blueprints for this project are located in **Content/Blueprints** directory.
 
- * UI/ - this directory contains implementations of various UI windows and dialogs.
- * Models/ - here we have data-objects and wrappers for them.
- * BP_MainGame - main blueprint, it contains almost everything about game & game rules. It implements NFTView interface.
- * NFTController, NFTItemsFetcher - core of NFT functionallity in this projects. They are used to login, load and buy NFTs, and also they control UI state.
- * SkinController - it contains code for applying NFT as a playable character skin.
+ * `UI/` - this directory contains implementations of various UI windows and dialogs.
+ * `Models/` - here we have data-objects and wrappers for them.
+ * `BP_MainGame` - main blueprint, it contains almost everything about game & game rules. It implements NFTView interface.
+ * `NFTController`, `NFTItemsFetcher` - core of NFT functionallity in this projects. They are used to login, load and buy NFTs, and also they control UI state.
+ * `SkinController` - it contains code for applying NFT as a playable character skin.
 
 If you have some questions left, please [join us on Discord](https://discord.com/invite/9tDyfZs)!
