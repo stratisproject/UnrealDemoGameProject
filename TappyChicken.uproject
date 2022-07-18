@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.10",
+	"EngineAssociation": "4.27",
 	"Category": "Samples",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TappyChicken",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"TargetPlatforms": [
 		"Android",
 		"IOS",
