@@ -4,7 +4,7 @@ It based on the well-known Unreal Engine game "Tappy Chicken" ([link](https://ww
 
 It uses a full power of Stratis Plugin, both in a C++ and Blueprint, to access wallet data and interact with NFT via [smart contracts](https://academy.stratisplatform.com/Operation%20Guides/SmartContracts/smartcontracts-introduction.html).
 
-===How to play?
+### How to play?
 
 Start the game and you will see the game starter screen:
 
@@ -30,7 +30,7 @@ Eqipped item will be used as a skin for a playable character:
 
 ![Custom skin](images/6-custom-skin-example.png)
 
-===How's it implemented?
+### How's it implemented?
 
 This project utilizes two smart contracts: [NFT contract](https://github.com/stratisproject/CirrusSmartContracts/tree/master/Testnet/NonFungibleToken) and [NFTStore contract](https://github.com/stratisproject/CirrusSmartContracts/tree/master/Testnet/NFTStore/NFTStore).
 
@@ -42,13 +42,13 @@ To access NFT data, we are using `UNFTWrapper::getTokenURI` method with a custom
 
 To perform NFT purchase, we are using `UStratisUnrealManager::sendCallContractTransaction` with "Buy" method name, and then we are waiting for a receipt using `UStratisUnrealManager::waitTillReceiptAvailable`.
 
-===C++ part
+### C++ part
 
 We are using C++ for some minor features (like value conversion or clipboard access), as well for a JSON parsing.
 
 `UAsyncTaskGetNFTInfo` is a wrapper class for NFT info fetching.
 
-===Blueprints part
+### Blueprints part
 
 Blueprints for this project are located in **Content/Blueprints** directory.
 
