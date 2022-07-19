@@ -1,0 +1,3 @@
+[submodule "Plugins/UnrealEnginePlugin"]
+	path = Plugins/UnrealEnginePlugin
+	url = git@github.com:stratisproject/UnrealEnginePlugin.git
