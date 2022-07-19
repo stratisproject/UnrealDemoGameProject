@@ -12,7 +12,10 @@ public class TappyChickenEditorTarget : TargetRules
 
 		ExtraModuleNames.AddRange( new string[] { "TappyChicken" } );
 
-		bOverrideBuildEnvironment = true;
-        AdditionalCompilerArguments = "-Wno-unused-but-set-variable";
+		if (Target.Platform == UnrealTargetPlatform.Mac)
+		{
+			bOverrideBuildEnvironment = true;
+        	AdditionalCompilerArguments = "-Wno-unused-but-set-variable";
+        }
 	}
 }
