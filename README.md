@@ -4,26 +4,6 @@ It based on the well-known Unreal Engine game "Tappy Chicken" ([link](https://ww
 
 It uses a full power of Stratis Plugin, both in a C++ and Blueprint, to access wallet data and interact with NFT via [smart contracts](https://academy.stratisplatform.com/Operation%20Guides/SmartContracts/smartcontracts-introduction.html).
 
-### How to get?
-
-This repository is using [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to depend on Stratis Plugin.
-
-In order to clone this repository, use a command below:
-
-```bash
-git clone --recurse-submodules git@github.com:stratisproject/UnrealDemoGameProject.git
-```
-
-### UE5 support
-
-In order to build project using Unreal Engine 5.0+, use a branch `support/ue5`.
-
-If you are clonning repository from the scratch, add `branch` argument to clone command:
-
-```bash
-git clone --recurse-submodules --branch "support/ue5" git@github.com:stratisproject/UnrealDemoGameProject.git
-```
-
 ### How to play?
 
 Start the game and you will see the game starter screen:
